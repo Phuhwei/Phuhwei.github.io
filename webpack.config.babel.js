@@ -12,7 +12,7 @@ const isProduction = env === 'production' || LAUNCH_COMMAND === 'production';
 function findBuildDir() {
   switch (env) {
     case 'production':
-      return 'gh-pages';
+      return 'master';
     default:
       return 'build';
   }
