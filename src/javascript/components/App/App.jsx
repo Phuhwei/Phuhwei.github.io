@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Header from '../Header';
+import styles from './styles.css';
 
 
 export default class App extends Component {
@@ -10,7 +12,10 @@ export default class App extends Component {
 
   render() {
     return (
-      <h2>hello world</h2>
+      <div className={styles.appBox}>
+        <Header />
+        <h2>hello world</h2>
+      </div>
     );
   }
 }

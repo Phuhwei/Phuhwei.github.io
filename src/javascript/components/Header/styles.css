@@ -1,0 +1,11 @@
+.headerBar {
+  margin: 0;
+  height: 10rem;
+  background-color: #f9f9f9 !important;
+  -webkit-print-color-adjust: exact;
+  display: flex;
+  justify-content: center;
+}
+.headerBar p {
+  margin: 0;
+}

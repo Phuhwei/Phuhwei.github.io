@@ -5,7 +5,7 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { routerMiddleware } from 'react-router-redux';
 import { Provider } from 'react-redux';
 import { Router, Route, hashHistory } from 'react-router';
-import App from './containers/App';
+import App from './components/App';
 
 
 const reducers = combineReducers({});

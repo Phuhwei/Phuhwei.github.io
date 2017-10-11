@@ -33,7 +33,8 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 const PATHS = {
   // this app will be the entry point;
   app: [
-    path.join(__dirname, 'src/javascript/index.jsx'),
+    path.join(__dirname, 'src/javascript/Index.jsx'),
+    path.join(__dirname, 'src/sharedCSS/index.js'),
   ],
   // this will be the output path;
   build: path.resolve(__dirname, findBuildDir()),
